@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+models/
+models_multi/
+models_multi_v2/
+models_multi_v2_smoketest/
+models_multi_v2_smoketest2/
+
+*.pth
+*.pkl
+*.xlsx
+*.png

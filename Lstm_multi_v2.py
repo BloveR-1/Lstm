@@ -1,3 +1,4 @@
+# %%
 import copy
 import random
 from dataclasses import dataclass
@@ -39,7 +40,7 @@ class Config:
     scheduler_factor: float = 0.5
     peak_weight: float = 3.0
     peak_percentile: float = 0.90
-    output_dir: str = "models_multi_v2"
+    output_dir: str = "models_multi_v2_optimized"
 
 
 CONFIG = Config()
@@ -678,3 +679,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# %%
